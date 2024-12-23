@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            margin: 0;
+            background: url('https://colorlib.com/wp/wp-content/uploads/sites/2/agro-food-website-template.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .container {
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #0E7787; /* Initial button color */
+            border: 2px solid #2CCCDE; /* Border color */
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 15px;
+            transition: all 0.3s ease;
+        }
+        .button:hover {
+            background-color: #6BF0F2; /* Hover color */
+            border-color: #9DF5ED; /* Hover border color */
+            color: #0E7787; /* Hover text color */
+            transform: scale(1.05);
+        }
+        .button:active {
+            background-color: #F2DACB; /* Active button color */
+            transform: scale(0.95);
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .button-group {
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="button-group">
+            <a href="login.jsp" class="button">Login</a>
+            <a href="register.jsp" class="button">Register</a>
+        </div>
+    </header>
+</body>
+</html>
